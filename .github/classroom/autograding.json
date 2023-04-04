@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "1",
+      "setup": "make main",
+      "run": "./main",
+      "input": "file1",
+      "output": "Lokasi dari file1: root/folder1/file1",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "2",
+      "setup": "",
+      "run": "./main",
+      "input": "file3",
+      "output": "Lokasi dari file3: root/folder1/folder2/file3",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "3",
+      "setup": "",
+      "run": "./main",
+      "input": "file4",
+      "output": "Lokasi dari file4: root/folder1/folder2/folder4/file4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "4",
+      "setup": "",
+      "run": "./main",
+      "input": "file5",
+      "output": "Lokasi dari file5: root/folder3/file5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "5",
+      "setup": "",
+      "run": "./main",
+      "input": "file6",
+      "output": "Lokasi dari file6: root/folder3/folder5/folder6/file6",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "6",
+      "setup": "",
+      "run": "./main",
+      "input": "file7",
+      "output": "Lokasi dari file7: root/folder7/file7",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "7",
+      "setup": "",
+      "run": "./main",
+      "input": "folder2",
+      "output": "Lokasi dari folder2: root/folder1/folder2",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "8",
+      "setup": "",
+      "run": "./main",
+      "input": "folder4",
+      "output": "Lokasi dari folder4: root/folder1/folder2/folder4",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "9",
+      "setup": "",
+      "run": "./main",
+      "input": "folder5",
+      "output": "Lokasi dari folder5: root/folder3/folder5",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./main",
+      "input": "folder6",
+      "output": "Lokasi dari folder6: root/folder3/folder5/folder6",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
